@@ -185,7 +185,7 @@ $_SESSION['form_errors'] = [];
     <input type="radio" name="screenTime" value="7+">7+ Hours
 
 
-<!-- ATYPICAL FIELDS -->
+<!-- EXTRA QUESTIONS -->
     <label for="phone_number">Phone Number</label>
         <input type="tel" name="phone_number" placeholder="(888) 888 8888">
 
@@ -193,7 +193,7 @@ $_SESSION['form_errors'] = [];
         <input type="color" name="color" placeholder="chartruese">
 
     <label for="fav_hobby">Favourite Hobby</label>
-        <input type="hobby" name="favourite_hobby" placeholder="badminton">
+        <input type="hobby" name="hobby" placeholder="badminton">
 
             <button type="submit">Submit</button>
         </form>
